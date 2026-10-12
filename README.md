@@ -87,3 +87,24 @@ Python, pandas, SQLite, matplotlib, scipy/statsmodels, Google Colab or Codespace
 - docs/data-dictionary.md: every column, its source, meaning and how it was cleaned
 - docs/daily-log.md: daily progress
 - docs/report.md: findings, method and limitations
+
+## 14. Repo structure
+- README.md
+- run_pipeline.py
+- data/ (raw/, clean/)
+- src/ (extract.py, clean.py, validate.py, load.py, analyse.py)
+- notebooks/
+- logs/
+- docs/
+
+## 15. Risks and backup plans
+- Data comes as messy PDFs or Excel: allow extra days for cleaning, or use a simpler table-format dataset
+- A dataset is unavailable: switch to another Stats SA or Kaggle SA dataset
+- Falling behind: drop the forecast and keep everything else
+
+## 16. Deliverables
+- Working pipeline with one-command re-run
+- SQLite database
+- Charts and dashboard
+- Data dictionary and final report
+- Short demo video
