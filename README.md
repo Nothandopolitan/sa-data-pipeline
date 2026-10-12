@@ -20,3 +20,12 @@ Note: this project measures correlation only. It does not claim unemployment cau
 - Stats SA: unemployment and population by province
 - SAPS: crime statistics by province
 - (Confirm exact files, formats and licences on day 1)
+
+## 5. Pipeline stages
+1. Extract: script downloads and loads the raw files into data/raw/
+2. Clean: fix column names, missing values, types, province names and year mismatches
+3. Validate: automatic data quality checks (see section 6)
+4. Load: write cleaned data into a SQLite database with linked tables
+5. Analyse: exploration, statistics, forecast
+6. Visualise: charts and a dashboard
+7. Automate: run_pipeline.py runs stages 1-6 in order
