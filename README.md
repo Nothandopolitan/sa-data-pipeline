@@ -8,3 +8,15 @@ An end-to-end data pipeline that collects official South African statistics (Sta
 - Data analytics: explore the data and present clear findings
 - Statistics: test relationships properly and state the limits of the results
 - Quality: validate the data, document it, and log every run
+- 
+## 3. Research questions
+1. How have unemployment and selected crime categories changed by province over time?
+2. Do provinces with higher unemployment tend to have higher crime rates?
+3. What does a simple forecast say about the next period?
+
+Note: this project measures correlation only. It does not claim unemployment causes crime.
+
+## 4. Data sources
+- Stats SA: unemployment and population by province
+- SAPS: crime statistics by province
+- (Confirm exact files, formats and licences on day 1)
