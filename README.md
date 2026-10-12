@@ -38,3 +38,14 @@ Note: this project measures correlation only. It does not claim unemployment cau
 - Values fall within sensible ranges
 - Row counts are compared before and after cleaning
 - Failed checks are written to the log and stop the run
+
+## 7. Database design
+Tables: provinces, years, unemployment, crime_stats, with province and year as shared keys. Schema diagram stored in docs/.
+
+## 8. Statistical methods
+- Descriptive statistics (mean, median, spread)
+- Trend analysis over time
+- Correlation (Pearson and Spearman) with p-values
+- Simple forecast (linear regression or moving average)
+- Confidence intervals on key results
+- Clear limitations (small sample, other factors, reporting differences)
