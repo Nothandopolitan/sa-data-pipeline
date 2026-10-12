@@ -49,3 +49,8 @@ Tables: provinces, years, unemployment, crime_stats, with province and year as s
 - Simple forecast (linear regression or moving average)
 - Confidence intervals on key results
 - Clear limitations (small sample, other factors, reporting differences)
+
+## 9. Logging and re-runnability
+- Every run writes a timestamped log (steps done, row counts, checks passed or failed)
+- The pipeline can be deleted and rebuilt from scratch with one command
+- Re-running never creates duplicate rows
