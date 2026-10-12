@@ -54,3 +54,26 @@ Tables: provinces, years, unemployment, crime_stats, with province and year as s
 - Every run writes a timestamped log (steps done, row counts, checks passed or failed)
 - The pipeline can be deleted and rebuilt from scratch with one command
 - Re-running never creates duplicate rows
+
+## 10. Tech stack
+Python, pandas, SQLite, matplotlib, scipy/statsmodels, Google Colab or Codespaces, Git and GitHub
+
+## 11. Timeline
+| Date | Task |
+|---|---|
+| Tue 13 Oct | Create repo, README, find and confirm datasets |
+| Wed 14 Oct | Download raw data, write the extract script |
+| Thu 15 Oct | Inspect raw data, list the problems found |
+| Fri 16 Oct | Clean the Stats SA data |
+| Sat 17 Oct | Clean the SAPS data, standardise province names |
+| Sun 18 Oct | Write the data quality checks |
+| Mon 19 Oct | Design the database and load the data |
+| Tue 20 Oct | Add logging, build run_pipeline.py |
+| Wed 21 Oct | Exploratory analysis |
+| Thu 22 Oct | Correlation and trend statistics |
+| Fri 23 Oct | Forecast and confidence intervals |
+| Sat 24 Oct | Build the charts |
+| Sun 25 Oct | Build the dashboard |
+| Mon 26 Oct | Data dictionary and limitations section |
+| Tue 27 Oct | Full re-run from scratch test, write the report |
+| Wed 28 Oct | Polish README, record demo, submit |
