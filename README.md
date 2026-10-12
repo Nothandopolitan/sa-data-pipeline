@@ -8,7 +8,7 @@ An end-to-end data pipeline that collects official South African statistics (Sta
 - Data analytics: explore the data and present clear findings
 - Statistics: test relationships properly and state the limits of the results
 - Quality: validate the data, document it, and log every run
-- 
+  
 ## 3. Research questions
 1. How have unemployment and selected crime categories changed by province over time?
 2. Do provinces with higher unemployment tend to have higher crime rates?
