@@ -29,3 +29,12 @@ Note: this project measures correlation only. It does not claim unemployment cau
 5. Analyse: exploration, statistics, forecast
 6. Visualise: charts and a dashboard
 7. Automate: run_pipeline.py runs stages 1-6 in order
+
+## 6. Data quality checks
+- No missing province or year
+- No duplicate rows
+- No negative counts or rates
+- Province names match one standard list
+- Values fall within sensible ranges
+- Row counts are compared before and after cleaning
+- Failed checks are written to the log and stop the run
