@@ -77,3 +77,13 @@ Python, pandas, SQLite, matplotlib, scipy/statsmodels, Google Colab or Codespace
 | Mon 26 Oct | Data dictionary and limitations section |
 | Tue 27 Oct | Full re-run from scratch test, write the report |
 | Wed 28 Oct | Polish README, record demo, submit |
+
+## 12. Daily routine
+1. Work on that day's task (about 1 hour)
+2. Commit with a clear message
+3. Add an entry to docs/daily-log.md
+
+## 13. Documentation
+- docs/data-dictionary.md: every column, its source, meaning and how it was cleaned
+- docs/daily-log.md: daily progress
+- docs/report.md: findings, method and limitations
