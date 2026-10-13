@@ -17,9 +17,10 @@ An end-to-end data pipeline that collects official South African statistics (Sta
 Note: this project measures correlation only. It does not claim unemployment causes crime.
 
 ## 4. Data sources
-- Stats SA: unemployment and population by province
-- SAPS: crime statistics by province
-- (Confirm exact files, formats and licences on day 1)
+- SAPS: national and provincial crime statistics, 2005 to 2015 (CSV, republished by Code4SA on openAFRICA)
+- Stats SA: Quarterly Labour Force Survey, official unemployment rate by province, from 2008
+- Analysis period: 2008 to 2015, where both sources overlap
+- Full details and known issues: docs/data-sources.md
 
 ## 5. Pipeline stages
 1. Extract: script downloads and loads the raw files into data/raw/
