@@ -11,3 +11,11 @@
 - Period: financial years (April to March)
 - Licence: not specified on the source page
 - To do: spot-check some totals against the official SAPS release
+
+## 2. Stats SA Quarterly Labour Force Survey (QLFS)
+- Publisher: Statistics South Africa
+- Measure: official unemployment rate by province
+- Format: quarterly releases (PDF) and an Excel file on statssa.gov.za
+- Period: most series start in 2008 Q1
+- Licence: to confirm on statssa.gov.za
+- To do: confirm the exact provincial table when downloading
