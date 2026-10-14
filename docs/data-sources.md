@@ -15,10 +15,11 @@
 ## 2. Stats SA Quarterly Labour Force Survey (QLFS)
 - Publisher: Statistics South Africa
 - Measure: official unemployment rate by province
-- Format: quarterly releases (PDF) and an Excel file on statssa.gov.za
+- Format: quarterly release PDFs (publication P0211) with a provincial unemployment table. No ready-made download found yet.
+- Other route: raw survey data through DataFirst (needs registration, much heavier)
 - Period: most series start in 2008 Q1
 - Licence: to confirm on statssa.gov.za
-- To do: confirm the exact provincial table when downloading
+- Plan: extract the provincial table from each release, probably one quarter per year (see data/raw/qlfs/README.md)
 
 ## Known data issues
 - Crime is per financial year, unemployment is quarterly. Quarters are averaged per financial year.
