@@ -16,3 +16,8 @@
 - Wrote the SAPS download in the extract stage
 - Found that Stats SA data comes as PDF release tables, so the plan changed to extracting tables from PDFs
 - Next: run the extract stage, then clean the SAPS data
+
+## Update 16 Oct
+- The SAPS CSV at data.code4sa.org is no longer available (domain and file both gone, checked Wayback Machine too)
+- Need to find a replacement source for SAPS crime data
+- Options to check: saps.gov.za official stats, Stats SA, a newer mirror on another open data site
