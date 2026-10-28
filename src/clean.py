@@ -1,3 +1,4 @@
+import os
 import re
 import pandas as pd
 
@@ -72,11 +73,15 @@ def clean_qlfs():
     return wide.reset_index()
 
 
-if __name__ == '__main__':
+def run():
     s, u = clean_saps(), clean_qlfs()
     u = u[(u.year >= 2015) & (u.year <= 2024)]
-    print(s.shape, u.shape)                 # expect (540, 4) and (90, 5)
-    print(sorted(u.Province.unique()))      # expect all 9 provinces
-    print(u.n_quarters.value_counts())      # expect 4 for every row
-    print(u[u.Province == 'KwaZulu-Natal'].head(3))
-    print(s[(s.Province == 'KwaZulu-Natal') & (s.Crime_Category == 'Murder')].head(3))
+    os.makedirs('data/clean', exist_ok=True)
+    s.to_csv('data/clean/crime.csv', index=False)
+    u.to_csv('data/clean/unemployment.csv', index=False)
+    return s, u
+
+
+if __name__ == '__main__':
+    s, u = run()
+    print(s.shape, u.shape)
