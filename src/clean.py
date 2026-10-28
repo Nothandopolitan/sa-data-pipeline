@@ -8,11 +8,13 @@ PROVINCES = ['Eastern Cape', 'Free State', 'Gauteng', 'KwaZulu-Natal', 'Limpopo'
 CATEGORIES = ['Murder', 'Attempted murder', 'Robbery with aggravating circumstances',
               'Burglary at residential premises', 'Theft of motor vehicle and motorcycle',
               'Contact crime (Crimes against the person)']
+QUARTER = re.compile(r'(Jan-Mar|Apr-Jun|Jul-Sep|Oct-Dec)\s+(\d{4})')
 
 
 def clean_saps():
     r = pd.read_excel(SAPS, sheet_name='RAW Data', header=2)
-    r = r[r['Comp level'] == 'Province']
+    r = r[r['Comp level'] == 'Province'].copy()
+    r['Province'] = r['Station'].astype(str).str.strip()   # province name sits in Station
     r = r[r['Province'].isin(PROVINCES) & r['Crime_Category'].isin(CATEGORIES)]
     years = [c for c in r.columns if re.fullmatch(r'\d{4}-\d{4}', str(c))]
     long = r.melt(id_vars=['Province', 'Crime_Category'], value_vars=years,
@@ -31,22 +33,23 @@ def clean_qlfs():
         if pd.isna(label):
             continue
         label = str(label).strip()
+        low = label.lower()
         vals = t.iloc[i, 1:]
         if vals.isna().all():                       # block or section header
             if label in PROVINCES:
                 prov = label
-            elif not label.startswith(('Key rates', 'Labour underutilization')):
+            elif not low.startswith(('key rates', 'labour underutilization')):
                 prov = None                         # metro or other block
             continue
-        if prov and (label == 'Population 15-64 years' or label.startswith('LU1')):
-            name = 'pop_thousand' if label.startswith('Pop') else 'unemp_rate'
+        if prov and (low.startswith('population') or low.startswith('lu1')):
+            name = 'pop_thousand' if low.startswith('population') else 'unemp_rate'
             for qtr, v in zip(q, vals):
-                m = re.match(r'(Jan-Mar|Apr-Jun|Jul-Sep|Oct-Dec)\s+(\d{4})', str(qtr))
+                m = QUARTER.match(str(qtr).strip())
                 if m and pd.notna(v):
                     yr = int(m.group(2))
                     fy = yr - 1 if m.group(1) == 'Jan-Mar' else yr
-                    rows.append((prov, fy, qtr, name, float(v)))
-    d = pd.DataFrame(rows, columns=['Province', 'year', 'quarter', 'measure', 'value'])
+                    rows.append((prov, fy, name, float(v)))
+    d = pd.DataFrame(rows, columns=['Province', 'year', 'measure', 'value'])
     wide = d.pivot_table(index=['Province', 'year'], columns='measure',
                          values='value', aggfunc='mean')
     wide['n_quarters'] = d[d.measure == 'unemp_rate'].groupby(['Province', 'year']).size()
@@ -56,7 +59,4 @@ def clean_qlfs():
 if __name__ == '__main__':
     s, u = clean_saps(), clean_qlfs()
     u = u[(u.year >= 2015) & (u.year <= 2024)]
-    print(s.shape, u.shape)                 # expect 540 (9*6*10) and 90 (9*10)
-    print(u.n_quarters.value_counts())      # expect all 4
-    print(u[u.Province == 'Gauteng'])
-    print(s[(s.Province == 'Gauteng') & (s.Crime_Category == 'Murder')])
+    print(s.shape, u.shape)                 # expect (540, 4)
