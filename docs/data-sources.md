@@ -28,3 +28,10 @@
 - Province names may differ between sources and need one standard list.
 - Small sample: 9 provinces over 7 to 8 years.
 - Crime data ends in 2015, so findings are historical.
+
+## Update
+- Original data.code4sa.org source confirmed dead (checked 16 Oct)
+- Switched to SAPS's own site: saps.gov.za/services/older_crimestats.php
+- Analysis period changed from 2008-2015 to 2019/2020-2024/2025 (only years with working download links)
+- 2023/2024 annual file returns 404 directly from SAPS (confirmed in browser, not a network issue); using 4 of 5 years
+- School network required disabling SSL verification in extract.py (verify=False) due to a network security proxy intercepting HTTPS
