@@ -54,9 +54,15 @@ def stage_visualise():
     visualise.run()
 
 
+def stage_dashboard():
+    import dashboard
+    dashboard.run()
+
+
 STAGES = [('extract', stage_extract), ('clean', stage_clean),
           ('validate', stage_validate), ('load', stage_load),
-          ('analyse', stage_analyse), ('visualise', stage_visualise)]
+          ('analyse', stage_analyse), ('visualise', stage_visualise),
+          ('dashboard', stage_dashboard)]
 
 
 def main():
