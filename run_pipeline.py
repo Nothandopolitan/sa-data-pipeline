@@ -44,8 +44,19 @@ def stage_load():
     load.load()
 
 
+def stage_analyse():
+    import analyse
+    analyse.run()
+
+
+def stage_visualise():
+    import visualise
+    visualise.run()
+
+
 STAGES = [('extract', stage_extract), ('clean', stage_clean),
-          ('validate', stage_validate), ('load', stage_load)]
+          ('validate', stage_validate), ('load', stage_load),
+          ('analyse', stage_analyse), ('visualise', stage_visualise)]
 
 
 def main():

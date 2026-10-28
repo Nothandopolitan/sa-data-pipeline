@@ -1,0 +1,55 @@
+crime_category,province,mean,median,std
+Attempted murder,Eastern Cape,52.8,53.6,3.1
+Attempted murder,Free State,53.6,43.2,23.6
+Attempted murder,Gauteng,49.3,48.3,6.6
+Attempted murder,KwaZulu-Natal,70.6,60.3,15.2
+Attempted murder,Limpopo,24.3,24.1,3.2
+Attempted murder,Mpumalanga,38.2,37.4,6.8
+Attempted murder,North West,34.4,35.2,3.0
+Attempted murder,Northern Cape,118.3,78.1,78.0
+Attempted murder,Western Cape,81.1,81.1,5.6
+Burglary at residential premises,Eastern Cape,480.0,470.7,88.2
+Burglary at residential premises,Free State,640.3,629.4,109.0
+Burglary at residential premises,Gauteng,439.6,398.0,154.7
+Burglary at residential premises,KwaZulu-Natal,461.1,444.9,117.6
+Burglary at residential premises,Limpopo,350.2,341.7,67.3
+Burglary at residential premises,Mpumalanga,489.8,479.4,130.8
+Burglary at residential premises,North West,507.6,487.2,107.6
+Burglary at residential premises,Northern Cape,739.0,769.7,85.6
+Burglary at residential premises,Western Cape,740.5,671.9,237.4
+Contact crime (Crimes against the person),Eastern Cape,1554.1,1582.5,78.3
+Contact crime (Crimes against the person),Free State,1986.1,1971.4,169.2
+Contact crime (Crimes against the person),Gauteng,1650.4,1683.5,111.1
+Contact crime (Crimes against the person),KwaZulu-Natal,1413.0,1412.5,81.5
+Contact crime (Crimes against the person),Limpopo,979.6,967.2,88.8
+Contact crime (Crimes against the person),Mpumalanga,1170.7,1183.4,50.5
+Contact crime (Crimes against the person),North West,1441.9,1445.8,120.2
+Contact crime (Crimes against the person),Northern Cape,2238.4,2261.9,170.8
+Contact crime (Crimes against the person),Western Cape,2378.1,2398.6,223.3
+Murder,Eastern Cape,96.5,91.9,10.7
+Murder,Free State,50.2,51.1,3.8
+Murder,Gauteng,47.1,43.8,7.6
+Murder,KwaZulu-Natal,71.3,67.2,12.6
+Murder,Limpopo,23.3,24.4,2.5
+Murder,Mpumalanga,36.8,34.7,6.0
+Murder,North West,36.6,37.5,3.8
+Murder,Northern Cape,43.5,43.8,4.0
+Murder,Western Cape,83.1,84.5,5.0
+Robbery with aggravating circumstances,Eastern Cape,298.0,301.5,26.5
+Robbery with aggravating circumstances,Free State,251.6,255.2,22.4
+Robbery with aggravating circumstances,Gauteng,488.6,499.2,42.5
+Robbery with aggravating circumstances,KwaZulu-Natal,319.7,316.6,18.6
+Robbery with aggravating circumstances,Limpopo,186.7,187.1,13.4
+Robbery with aggravating circumstances,Mpumalanga,254.5,244.1,27.6
+Robbery with aggravating circumstances,North West,263.6,265.1,23.3
+Robbery with aggravating circumstances,Northern Cape,192.3,191.4,17.9
+Robbery with aggravating circumstances,Western Cape,488.8,508.9,58.8
+Theft of motor vehicle and motorcycle,Eastern Cape,47.2,46.0,13.5
+Theft of motor vehicle and motorcycle,Free State,60.9,57.7,22.4
+Theft of motor vehicle and motorcycle,Gauteng,213.2,204.1,48.7
+Theft of motor vehicle and motorcycle,KwaZulu-Natal,100.5,98.7,20.8
+Theft of motor vehicle and motorcycle,Limpopo,22.0,20.9,5.6
+Theft of motor vehicle and motorcycle,Mpumalanga,64.3,66.0,15.2
+Theft of motor vehicle and motorcycle,North West,68.1,68.4,14.2
+Theft of motor vehicle and motorcycle,Northern Cape,23.0,23.8,6.5
+Theft of motor vehicle and motorcycle,Western Cape,128.5,120.1,37.6
