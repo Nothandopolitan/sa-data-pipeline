@@ -1,0 +1,541 @@
+Province,year,Crime_Category,count
+Eastern Cape,2015,Murder,3649.0
+Eastern Cape,2015,Attempted murder,2052.0
+Eastern Cape,2015,Robbery with aggravating circumstances,12777.0
+Eastern Cape,2015,Burglary at residential premises,23901.0
+Eastern Cape,2015,Theft of motor vehicle and motorcycle,2678.0
+Eastern Cape,2015,Contact crime (Crimes against the person),67258.0
+Free State,2015,Murder,993.0
+Free State,2015,Attempted murder,787.0
+Free State,2015,Robbery with aggravating circumstances,4778.0
+Free State,2015,Burglary at residential premises,15323.0
+Free State,2015,Theft of motor vehicle and motorcycle,1745.0
+Free State,2015,Contact crime (Crimes against the person),41100.0
+Gauteng,2015,Murder,3842.0
+Gauteng,2015,Attempted murder,4574.0
+Gauteng,2015,Robbery with aggravating circumstances,49792.0
+Gauteng,2015,Burglary at residential premises,64968.0
+Gauteng,2015,Theft of motor vehicle and motorcycle,26646.0
+Gauteng,2015,Contact crime (Crimes against the person),172814.0
+KwaZulu-Natal,2015,Murder,3929.0
+KwaZulu-Natal,2015,Attempted murder,4041.0
+KwaZulu-Natal,2015,Robbery with aggravating circumstances,21061.0
+KwaZulu-Natal,2015,Burglary at residential premises,42429.0
+KwaZulu-Natal,2015,Theft of motor vehicle and motorcycle,8673.0
+KwaZulu-Natal,2015,Contact crime (Crimes against the person),97870.0
+Limpopo,2015,Murder,895.0
+Limpopo,2015,Attempted murder,872.0
+Limpopo,2015,Robbery with aggravating circumstances,6707.0
+Limpopo,2015,Burglary at residential premises,16199.0
+Limpopo,2015,Theft of motor vehicle and motorcycle,1150.0
+Limpopo,2015,Contact crime (Crimes against the person),40348.0
+Mpumalanga,2015,Murder,862.0
+Mpumalanga,2015,Attempted murder,800.0
+Mpumalanga,2015,Robbery with aggravating circumstances,6012.0
+Mpumalanga,2015,Burglary at residential premises,18180.0
+Mpumalanga,2015,Theft of motor vehicle and motorcycle,2223.0
+Mpumalanga,2015,Contact crime (Crimes against the person),32780.0
+North West,2015,Murder,907.0
+North West,2015,Attempted murder,899.0
+North West,2015,Robbery with aggravating circumstances,6281.0
+North West,2015,Burglary at residential premises,15568.0
+North West,2015,Theft of motor vehicle and motorcycle,2070.0
+North West,2015,Contact crime (Crimes against the person),35224.0
+Northern Cape,2015,Murder,372.0
+Northern Cape,2015,Attempted murder,658.0
+Northern Cape,2015,Robbery with aggravating circumstances,1387.0
+Northern Cape,2015,Burglary at residential premises,6469.0
+Northern Cape,2015,Theft of motor vehicle and motorcycle,246.0
+Northern Cape,2015,Contact crime (Crimes against the person),18971.0
+Western Cape,2015,Murder,3224.0
+Western Cape,2015,Attempted murder,3444.0
+Western Cape,2015,Robbery with aggravating circumstances,23732.0
+Western Cape,2015,Burglary at residential premises,47569.0
+Western Cape,2015,Theft of motor vehicle and motorcycle,8378.0
+Western Cape,2015,Contact crime (Crimes against the person),116858.0
+Eastern Cape,2016,Murder,3628.0
+Eastern Cape,2016,Attempted murder,2110.0
+Eastern Cape,2016,Robbery with aggravating circumstances,13688.0
+Eastern Cape,2016,Burglary at residential premises,24385.0
+Eastern Cape,2016,Theft of motor vehicle and motorcycle,2739.0
+Eastern Cape,2016,Contact crime (Crimes against the person),65524.0
+Free State,2016,Murder,950.0
+Free State,2016,Attempted murder,694.0
+Free State,2016,Robbery with aggravating circumstances,5147.0
+Free State,2016,Burglary at residential premises,14635.0
+Free State,2016,Theft of motor vehicle and motorcycle,1588.0
+Free State,2016,Contact crime (Crimes against the person),37741.0
+Gauteng,2016,Murder,4101.0
+Gauteng,2016,Attempted murder,4872.0
+Gauteng,2016,Robbery with aggravating circumstances,53793.0
+Gauteng,2016,Burglary at residential premises,63661.0
+Gauteng,2016,Theft of motor vehicle and motorcycle,27674.0
+Gauteng,2016,Contact crime (Crimes against the person),171466.0
+KwaZulu-Natal,2016,Murder,4014.0
+KwaZulu-Natal,2016,Attempted murder,3914.0
+KwaZulu-Natal,2016,Robbery with aggravating circumstances,22327.0
+KwaZulu-Natal,2016,Burglary at residential premises,41013.0
+KwaZulu-Natal,2016,Theft of motor vehicle and motorcycle,8413.0
+KwaZulu-Natal,2016,Contact crime (Crimes against the person),95153.0
+Limpopo,2016,Murder,813.0
+Limpopo,2016,Attempted murder,827.0
+Limpopo,2016,Robbery with aggravating circumstances,6735.0
+Limpopo,2016,Burglary at residential premises,15956.0
+Limpopo,2016,Theft of motor vehicle and motorcycle,1014.0
+Limpopo,2016,Contact crime (Crimes against the person),36721.0
+Mpumalanga,2016,Murder,954.0
+Mpumalanga,2016,Attempted murder,953.0
+Mpumalanga,2016,Robbery with aggravating circumstances,6712.0
+Mpumalanga,2016,Burglary at residential premises,18535.0
+Mpumalanga,2016,Theft of motor vehicle and motorcycle,2211.0
+Mpumalanga,2016,Contact crime (Crimes against the person),33424.0
+North West,2016,Murder,901.0
+North West,2016,Attempted murder,898.0
+North West,2016,Robbery with aggravating circumstances,7017.0
+North West,2016,Burglary at residential premises,15908.0
+North West,2016,Theft of motor vehicle and motorcycle,2068.0
+North West,2016,Contact crime (Crimes against the person),35483.0
+Northern Cape,2016,Murder,344.0
+Northern Cape,2016,Attempted murder,550.0
+Northern Cape,2016,Robbery with aggravating circumstances,1505.0
+Northern Cape,2016,Burglary at residential premises,6518.0
+Northern Cape,2016,Theft of motor vehicle and motorcycle,219.0
+Northern Cape,2016,Contact crime (Crimes against the person),18105.0
+Western Cape,2016,Murder,3311.0
+Western Cape,2016,Attempted murder,3387.0
+Western Cape,2016,Robbery with aggravating circumstances,24032.0
+Western Cape,2016,Burglary at residential premises,46043.0
+Western Cape,2016,Theft of motor vehicle and motorcycle,7381.0
+Western Cape,2016,Contact crime (Crimes against the person),114704.0
+Eastern Cape,2017,Murder,3815.0
+Eastern Cape,2017,Attempted murder,2232.0
+Eastern Cape,2017,Robbery with aggravating circumstances,13485.0
+Eastern Cape,2017,Burglary at residential premises,23758.0
+Eastern Cape,2017,Theft of motor vehicle and motorcycle,2443.0
+Eastern Cape,2017,Contact crime (Crimes against the person),65393.0
+Free State,2017,Murder,1054.0
+Free State,2017,Attempted murder,617.0
+Free State,2017,Robbery with aggravating circumstances,5032.0
+Free State,2017,Burglary at residential premises,13463.0
+Free State,2017,Theft of motor vehicle and motorcycle,1596.0
+Free State,2017,Contact crime (Crimes against the person),35725.0
+Gauteng,2017,Murder,4233.0
+Gauteng,2017,Attempted murder,4462.0
+Gauteng,2017,Robbery with aggravating circumstances,51706.0
+Gauteng,2017,Burglary at residential premises,56255.0
+Gauteng,2017,Theft of motor vehicle and motorcycle,25705.0
+Gauteng,2017,Contact crime (Crimes against the person),170640.0
+KwaZulu-Natal,2017,Murder,4382.0
+KwaZulu-Natal,2017,Attempted murder,4099.0
+KwaZulu-Natal,2017,Robbery with aggravating circumstances,21543.0
+KwaZulu-Natal,2017,Burglary at residential premises,38545.0
+KwaZulu-Natal,2017,Theft of motor vehicle and motorcycle,8240.0
+KwaZulu-Natal,2017,Contact crime (Crimes against the person),94914.0
+Limpopo,2017,Murder,910.0
+Limpopo,2017,Attempted murder,883.0
+Limpopo,2017,Robbery with aggravating circumstances,7039.0
+Limpopo,2017,Burglary at residential premises,14319.0
+Limpopo,2017,Theft of motor vehicle and motorcycle,1021.0
+Limpopo,2017,Contact crime (Crimes against the person),35039.0
+Mpumalanga,2017,Murder,923.0
+Mpumalanga,2017,Attempted murder,898.0
+Mpumalanga,2017,Robbery with aggravating circumstances,6766.0
+Mpumalanga,2017,Burglary at residential premises,17597.0
+Mpumalanga,2017,Theft of motor vehicle and motorcycle,2209.0
+Mpumalanga,2017,Contact crime (Crimes against the person),32675.0
+North West,2017,Murder,950.0
+North West,2017,Attempted murder,864.0
+North West,2017,Robbery with aggravating circumstances,6825.0
+North West,2017,Burglary at residential premises,15267.0
+North West,2017,Theft of motor vehicle and motorcycle,2112.0
+North West,2017,Contact crime (Crimes against the person),36604.0
+Northern Cape,2017,Murder,340.0
+Northern Cape,2017,Attempted murder,480.0
+Northern Cape,2017,Robbery with aggravating circumstances,1639.0
+Northern Cape,2017,Burglary at residential premises,6228.0
+Northern Cape,2017,Theft of motor vehicle and motorcycle,233.0
+Northern Cape,2017,Contact crime (Crimes against the person),17380.0
+Western Cape,2017,Murder,3729.0
+Western Cape,2017,Attempted murder,3698.0
+Western Cape,2017,Robbery with aggravating circumstances,24329.0
+Western Cape,2017,Burglary at residential premises,42662.0
+Western Cape,2017,Theft of motor vehicle and motorcycle,7104.0
+Western Cape,2017,Contact crime (Crimes against the person),112996.0
+Eastern Cape,2018,Murder,3965.0
+Eastern Cape,2018,Attempted murder,2305.0
+Eastern Cape,2018,Robbery with aggravating circumstances,13578.0
+Eastern Cape,2018,Burglary at residential premises,23393.0
+Eastern Cape,2018,Theft of motor vehicle and motorcycle,2384.0
+Eastern Cape,2018,Contact crime (Crimes against the person),68416.0
+Free State,2018,Murder,1000.0
+Free State,2018,Attempted murder,844.0
+Free State,2018,Robbery with aggravating circumstances,5339.0
+Free State,2018,Burglary at residential premises,13244.0
+Free State,2018,Theft of motor vehicle and motorcycle,1413.0
+Free State,2018,Contact crime (Crimes against the person),36879.0
+Gauteng,2018,Murder,4495.0
+Gauteng,2018,Attempted murder,4455.0
+Gauteng,2018,Robbery with aggravating circumstances,52040.0
+Gauteng,2018,Burglary at residential premises,53092.0
+Gauteng,2018,Theft of motor vehicle and motorcycle,24321.0
+Gauteng,2018,Contact crime (Crimes against the person),174894.0
+KwaZulu-Natal,2018,Murder,4395.0
+KwaZulu-Natal,2018,Attempted murder,4203.0
+KwaZulu-Natal,2018,Robbery with aggravating circumstances,22110.0
+KwaZulu-Natal,2018,Burglary at residential premises,38790.0
+KwaZulu-Natal,2018,Theft of motor vehicle and motorcycle,8050.0
+KwaZulu-Natal,2018,Contact crime (Crimes against the person),97505.0
+Limpopo,2018,Murder,914.0
+Limpopo,2018,Attempted murder,834.0
+Limpopo,2018,Robbery with aggravating circumstances,7006.0
+Limpopo,2018,Burglary at residential premises,14634.0
+Limpopo,2018,Theft of motor vehicle and motorcycle,861.0
+Limpopo,2018,Contact crime (Crimes against the person),35266.0
+Mpumalanga,2018,Murder,996.0
+Mpumalanga,2018,Attempted murder,1090.0
+Mpumalanga,2018,Robbery with aggravating circumstances,7091.0
+Mpumalanga,2018,Burglary at residential premises,16533.0
+Mpumalanga,2018,Theft of motor vehicle and motorcycle,2290.0
+Mpumalanga,2018,Contact crime (Crimes against the person),34885.0
+North West,2018,Murder,961.0
+North West,2018,Attempted murder,857.0
+North West,2018,Robbery with aggravating circumstances,7023.0
+North West,2018,Burglary at residential premises,15436.0
+North West,2018,Theft of motor vehicle and motorcycle,1999.0
+North West,2018,Contact crime (Crimes against the person),37487.0
+Northern Cape,2018,Murder,322.0
+Northern Cape,2018,Attempted murder,532.0
+Northern Cape,2018,Robbery with aggravating circumstances,1780.0
+Northern Cape,2018,Burglary at residential premises,6325.0
+Northern Cape,2018,Theft of motor vehicle and motorcycle,215.0
+Northern Cape,2018,Contact crime (Crimes against the person),17891.0
+Western Cape,2018,Murder,3974.0
+Western Cape,2018,Attempted murder,3860.0
+Western Cape,2018,Robbery with aggravating circumstances,24065.0
+Western Cape,2018,Burglary at residential premises,39418.0
+Western Cape,2018,Theft of motor vehicle and motorcycle,6791.0
+Western Cape,2018,Contact crime (Crimes against the person),113987.0
+Eastern Cape,2019,Murder,3879.0
+Eastern Cape,2019,Attempted murder,2409.0
+Eastern Cape,2019,Robbery with aggravating circumstances,13983.0
+Eastern Cape,2019,Burglary at residential premises,22233.0
+Eastern Cape,2019,Theft of motor vehicle and motorcycle,2135.0
+Eastern Cape,2019,Contact crime (Crimes against the person),68545.0
+Free State,2019,Murder,939.0
+Free State,2019,Attempted murder,736.0
+Free State,2019,Robbery with aggravating circumstances,5119.0
+Free State,2019,Burglary at residential premises,12494.0
+Free State,2019,Theft of motor vehicle and motorcycle,1344.0
+Free State,2019,Contact crime (Crimes against the person),36059.0
+Gauteng,2019,Murder,4555.0
+Gauteng,2019,Attempted murder,4639.0
+Gauteng,2019,Robbery with aggravating circumstances,53927.0
+Gauteng,2019,Burglary at residential premises,48980.0
+Gauteng,2019,Theft of motor vehicle and motorcycle,23819.0
+Gauteng,2019,Contact crime (Crimes against the person),177737.0
+KwaZulu-Natal,2019,Murder,4859.0
+KwaZulu-Natal,2019,Attempted murder,4161.0
+KwaZulu-Natal,2019,Robbery with aggravating circumstances,22824.0
+KwaZulu-Natal,2019,Burglary at residential premises,35290.0
+KwaZulu-Natal,2019,Theft of motor vehicle and motorcycle,8030.0
+KwaZulu-Natal,2019,Contact crime (Crimes against the person),101154.0
+Limpopo,2019,Murder,882.0
+Limpopo,2019,Attempted murder,794.0
+Limpopo,2019,Robbery with aggravating circumstances,7466.0
+Limpopo,2019,Burglary at residential premises,14502.0
+Limpopo,2019,Theft of motor vehicle and motorcycle,787.0
+Limpopo,2019,Contact crime (Crimes against the person),34780.0
+Mpumalanga,2019,Murder,1046.0
+Mpumalanga,2019,Attempted murder,1108.0
+Mpumalanga,2019,Robbery with aggravating circumstances,7672.0
+Mpumalanga,2019,Burglary at residential premises,16040.0
+Mpumalanga,2019,Theft of motor vehicle and motorcycle,2304.0
+Mpumalanga,2019,Contact crime (Crimes against the person),35622.0
+North West,2019,Murder,864.0
+North West,2019,Attempted murder,765.0
+North West,2019,Robbery with aggravating circumstances,6807.0
+North West,2019,Burglary at residential premises,14156.0
+North West,2019,Theft of motor vehicle and motorcycle,1929.0
+North West,2019,Contact crime (Crimes against the person),36286.0
+Northern Cape,2019,Murder,326.0
+Northern Cape,2019,Attempted murder,468.0
+Northern Cape,2019,Robbery with aggravating circumstances,1643.0
+Northern Cape,2019,Burglary at residential premises,6208.0
+Northern Cape,2019,Theft of motor vehicle and motorcycle,214.0
+Northern Cape,2019,Contact crime (Crimes against the person),17591.0
+Western Cape,2019,Murder,3975.0
+Western Cape,2019,Attempted murder,3555.0
+Western Cape,2019,Robbery with aggravating circumstances,24549.0
+Western Cape,2019,Burglary at residential premises,36056.0
+Western Cape,2019,Theft of motor vehicle and motorcycle,6359.0
+Western Cape,2019,Contact crime (Crimes against the person),113508.0
+Eastern Cape,2020,Murder,3713.0
+Eastern Cape,2020,Attempted murder,2104.0
+Eastern Cape,2020,Robbery with aggravating circumstances,11458.0
+Eastern Cape,2020,Burglary at residential premises,18521.0
+Eastern Cape,2020,Theft of motor vehicle and motorcycle,1529.0
+Eastern Cape,2020,Contact crime (Crimes against the person),59093.0
+Free State,2020,Murder,834.0
+Free State,2020,Attempted murder,727.0
+Free State,2020,Robbery with aggravating circumstances,3992.0
+Free State,2020,Burglary at residential premises,10241.0
+Free State,2020,Theft of motor vehicle and motorcycle,836.0
+Free State,2020,Contact crime (Crimes against the person),31668.0
+Gauteng,2020,Murder,4079.0
+Gauteng,2020,Attempted murder,4312.0
+Gauteng,2020,Robbery with aggravating circumstances,44109.0
+Gauteng,2020,Burglary at residential premises,33815.0
+Gauteng,2020,Theft of motor vehicle and motorcycle,18219.0
+Gauteng,2020,Contact crime (Crimes against the person),151911.0
+KwaZulu-Natal,2020,Murder,4825.0
+KwaZulu-Natal,2020,Attempted murder,4391.0
+KwaZulu-Natal,2020,Robbery with aggravating circumstances,20964.0
+KwaZulu-Natal,2020,Burglary at residential premises,28735.0
+KwaZulu-Natal,2020,Theft of motor vehicle and motorcycle,6073.0
+KwaZulu-Natal,2020,Contact crime (Crimes against the person),88851.0
+Limpopo,2020,Murder,717.0
+Limpopo,2020,Attempted murder,741.0
+Limpopo,2020,Robbery with aggravating circumstances,6105.0
+Limpopo,2020,Burglary at residential premises,11577.0
+Limpopo,2020,Theft of motor vehicle and motorcycle,614.0
+Limpopo,2020,Contact crime (Crimes against the person),31120.0
+Mpumalanga,2020,Murder,935.0
+Mpumalanga,2020,Attempted murder,1016.0
+Mpumalanga,2020,Robbery with aggravating circumstances,7004.0
+Mpumalanga,2020,Burglary at residential premises,12555.0
+Mpumalanga,2020,Theft of motor vehicle and motorcycle,1655.0
+Mpumalanga,2020,Contact crime (Crimes against the person),31488.0
+North West,2020,Murder,734.0
+North West,2020,Attempted murder,799.0
+North West,2020,Robbery with aggravating circumstances,5733.0
+North West,2020,Burglary at residential premises,11469.0
+North West,2020,Theft of motor vehicle and motorcycle,1452.0
+North West,2020,Contact crime (Crimes against the person),31636.0
+Northern Cape,2020,Murder,287.0
+Northern Cape,2020,Attempted murder,474.0
+Northern Cape,2020,Robbery with aggravating circumstances,1426.0
+Northern Cape,2020,Burglary at residential premises,5543.0
+Northern Cape,2020,Theft of motor vehicle and motorcycle,134.0
+Northern Cape,2020,Contact crime (Crimes against the person),15309.0
+Western Cape,2020,Murder,3848.0
+Western Cape,2020,Attempted murder,4143.0
+Western Cape,2020,Robbery with aggravating circumstances,19050.0
+Western Cape,2020,Burglary at residential premises,27265.0
+Western Cape,2020,Theft of motor vehicle and motorcycle,4511.0
+Western Cape,2020,Contact crime (Crimes against the person),94141.0
+Eastern Cape,2021,Murder,4407.0
+Eastern Cape,2021,Attempted murder,2155.0
+Eastern Cape,2021,Robbery with aggravating circumstances,11916.0
+Eastern Cape,2021,Burglary at residential premises,18471.0
+Eastern Cape,2021,Theft of motor vehicle and motorcycle,1868.0
+Eastern Cape,2021,Contact crime (Crimes against the person),66581.0
+Free State,2021,Murder,992.0
+Free State,2021,Attempted murder,890.0
+Free State,2021,Robbery with aggravating circumstances,4381.0
+Free State,2021,Burglary at residential premises,11008.0
+Free State,2021,Theft of motor vehicle and motorcycle,865.0
+Free State,2021,Contact crime (Crimes against the person),36356.0
+Gauteng,2021,Murder,5570.0
+Gauteng,2021,Attempted murder,5309.0
+Gauteng,2021,Robbery with aggravating circumstances,49700.0
+Gauteng,2021,Burglary at residential premises,34363.0
+Gauteng,2021,Theft of motor vehicle and motorcycle,19465.0
+Gauteng,2021,Contact crime (Crimes against the person),171026.0
+KwaZulu-Natal,2021,Murder,6495.0
+KwaZulu-Natal,2021,Attempted murder,5917.0
+KwaZulu-Natal,2021,Robbery with aggravating circumstances,23897.0
+KwaZulu-Natal,2021,Burglary at residential premises,26006.0
+KwaZulu-Natal,2021,Theft of motor vehicle and motorcycle,6151.0
+KwaZulu-Natal,2021,Contact crime (Crimes against the person),103725.0
+Limpopo,2021,Murder,1012.0
+Limpopo,2021,Attempted murder,1102.0
+Limpopo,2021,Robbery with aggravating circumstances,6923.0
+Limpopo,2021,Burglary at residential premises,11754.0
+Limpopo,2021,Theft of motor vehicle and motorcycle,821.0
+Limpopo,2021,Contact crime (Crimes against the person),37690.0
+Mpumalanga,2021,Murder,1201.0
+Mpumalanga,2021,Attempted murder,1401.0
+Mpumalanga,2021,Robbery with aggravating circumstances,8864.0
+Mpumalanga,2021,Burglary at residential premises,11604.0
+Mpumalanga,2021,Theft of motor vehicle and motorcycle,1676.0
+Mpumalanga,2021,Contact crime (Crimes against the person),36099.0
+North West,2021,Murder,1029.0
+North West,2021,Attempted murder,872.0
+North West,2021,Robbery with aggravating circumstances,6492.0
+North West,2021,Burglary at residential premises,11393.0
+North West,2021,Theft of motor vehicle and motorcycle,1652.0
+North West,2021,Contact crime (Crimes against the person),36782.0
+Northern Cape,2021,Murder,366.0
+Northern Cape,2021,Attempted murder,780.0
+Northern Cape,2021,Robbery with aggravating circumstances,1323.0
+Northern Cape,2021,Burglary at residential premises,5280.0
+Northern Cape,2021,Theft of motor vehicle and motorcycle,172.0
+Northern Cape,2021,Contact crime (Crimes against the person),16847.0
+Western Cape,2021,Murder,4109.0
+Western Cape,2021,Attempted murder,3669.0
+Western Cape,2021,Robbery with aggravating circumstances,19292.0
+Western Cape,2021,Burglary at residential premises,26291.0
+Western Cape,2021,Theft of motor vehicle and motorcycle,4732.0
+Western Cape,2021,Contact crime (Crimes against the person),102057.0
+Eastern Cape,2022,Murder,5150.0
+Eastern Cape,2022,Attempted murder,2519.0
+Eastern Cape,2022,Robbery with aggravating circumstances,13021.0
+Eastern Cape,2022,Burglary at residential premises,18916.0
+Eastern Cape,2022,Theft of motor vehicle and motorcycle,1693.0
+Eastern Cape,2022,Contact crime (Crimes against the person),71175.0
+Free State,2022,Murder,979.0
+Free State,2022,Attempted murder,1326.0
+Free State,2022,Robbery with aggravating circumstances,4603.0
+Free State,2022,Burglary at residential premises,11659.0
+Free State,2022,Theft of motor vehicle and motorcycle,793.0
+Free State,2022,Contact crime (Crimes against the person),39839.0
+Gauteng,2022,Murder,6411.0
+Gauteng,2022,Attempted murder,6161.0
+Gauteng,2022,Robbery with aggravating circumstances,53633.0
+Gauteng,2022,Burglary at residential premises,35899.0
+Gauteng,2022,Theft of motor vehicle and motorcycle,19530.0
+Gauteng,2022,Contact crime (Crimes against the person),181806.0
+KwaZulu-Natal,2022,Murder,6947.0
+KwaZulu-Natal,2022,Attempted murder,6307.0
+KwaZulu-Natal,2022,Robbery with aggravating circumstances,26798.0
+KwaZulu-Natal,2022,Burglary at residential premises,26578.0
+KwaZulu-Natal,2022,Theft of motor vehicle and motorcycle,6343.0
+KwaZulu-Natal,2022,Contact crime (Crimes against the person),110082.0
+Limpopo,2022,Murder,1013.0
+Limpopo,2022,Attempted murder,1068.0
+Limpopo,2022,Robbery with aggravating circumstances,8004.0
+Limpopo,2022,Burglary at residential premises,11768.0
+Limpopo,2022,Theft of motor vehicle and motorcycle,777.0
+Limpopo,2022,Contact crime (Crimes against the person),42100.0
+Mpumalanga,2022,Murder,1344.0
+Mpumalanga,2022,Attempted murder,1417.0
+Mpumalanga,2022,Robbery with aggravating circumstances,8948.0
+Mpumalanga,2022,Burglary at residential premises,12285.0
+Mpumalanga,2022,Theft of motor vehicle and motorcycle,1484.0
+Mpumalanga,2022,Contact crime (Crimes against the person),36586.0
+North West,2022,Murder,1108.0
+North West,2022,Attempted murder,1039.0
+North West,2022,Robbery with aggravating circumstances,7108.0
+North West,2022,Burglary at residential premises,11850.0
+North West,2022,Theft of motor vehicle and motorcycle,1723.0
+North West,2022,Contact crime (Crimes against the person),40692.0
+Northern Cape,2022,Murder,392.0
+Northern Cape,2022,Attempted murder,1700.0
+Northern Cape,2022,Robbery with aggravating circumstances,1569.0
+Northern Cape,2022,Burglary at residential premises,6363.0
+Northern Cape,2022,Theft of motor vehicle and motorcycle,162.0
+Northern Cape,2022,Contact crime (Crimes against the person),18874.0
+Western Cape,2022,Murder,4150.0
+Western Cape,2022,Attempted murder,3594.0
+Western Cape,2022,Robbery with aggravating circumstances,22441.0
+Western Cape,2022,Burglary at residential premises,28175.0
+Western Cape,2022,Theft of motor vehicle and motorcycle,4956.0
+Western Cape,2022,Contact crime (Crimes against the person),112899.0
+Eastern Cape,2023,Murder,5083.0
+Eastern Cape,2023,Attempted murder,2499.0
+Eastern Cape,2023,Robbery with aggravating circumstances,13235.0
+Eastern Cape,2023,Burglary at residential premises,17298.0
+Eastern Cape,2023,Theft of motor vehicle and motorcycle,1424.0
+Eastern Cape,2023,Contact crime (Crimes against the person),71830.0
+Free State,2023,Murder,996.0
+Free State,2023,Attempted murder,1746.0
+Free State,2023,Robbery with aggravating circumstances,4943.0
+Free State,2023,Burglary at residential premises,10408.0
+Free State,2023,Theft of motor vehicle and motorcycle,713.0
+Free State,2023,Contact crime (Crimes against the person),42256.0
+Gauteng,2023,Murder,6584.0
+Gauteng,2023,Attempted murder,6795.0
+Gauteng,2023,Robbery with aggravating circumstances,54707.0
+Gauteng,2023,Burglary at residential premises,33793.0
+Gauteng,2023,Theft of motor vehicle and motorcycle,19351.0
+Gauteng,2023,Contact crime (Crimes against the person),186098.0
+KwaZulu-Natal,2023,Murder,6343.0
+KwaZulu-Natal,2023,Attempted murder,7167.0
+KwaZulu-Natal,2023,Robbery with aggravating circumstances,25275.0
+KwaZulu-Natal,2023,Burglary at residential premises,26606.0
+KwaZulu-Natal,2023,Theft of motor vehicle and motorcycle,6151.0
+KwaZulu-Natal,2023,Contact crime (Crimes against the person),113700.0
+Limpopo,2023,Murder,975.0
+Limpopo,2023,Attempted murder,1179.0
+Limpopo,2023,Robbery with aggravating circumstances,8170.0
+Limpopo,2023,Burglary at residential premises,11197.0
+Limpopo,2023,Theft of motor vehicle and motorcycle,706.0
+Limpopo,2023,Contact crime (Crimes against the person),42008.0
+Mpumalanga,2023,Murder,1565.0
+Mpumalanga,2023,Attempted murder,1554.0
+Mpumalanga,2023,Robbery with aggravating circumstances,9263.0
+Mpumalanga,2023,Burglary at residential premises,11049.0
+Mpumalanga,2023,Theft of motor vehicle and motorcycle,1562.0
+Mpumalanga,2023,Contact crime (Crimes against the person),38790.0
+North West,2023,Murder,1131.0
+North West,2023,Attempted murder,1012.0
+North West,2023,Robbery with aggravating circumstances,8355.0
+North West,2023,Burglary at residential premises,11047.0
+North West,2023,Theft of motor vehicle and motorcycle,1427.0
+North West,2023,Contact crime (Crimes against the person),45386.0
+Northern Cape,2023,Murder,400.0
+Northern Cape,2023,Attempted murder,2020.0
+Northern Cape,2023,Robbery with aggravating circumstances,1690.0
+Northern Cape,2023,Burglary at residential premises,5623.0
+Northern Cape,2023,Theft of motor vehicle and motorcycle,145.0
+Northern Cape,2023,Contact crime (Crimes against the person),20008.0
+Western Cape,2023,Murder,4544.0
+Western Cape,2023,Attempted murder,4479.0
+Western Cape,2023,Robbery with aggravating circumstances,24679.0
+Western Cape,2023,Burglary at residential premises,27020.0
+Western Cape,2023,Theft of motor vehicle and motorcycle,5216.0
+Western Cape,2023,Contact crime (Crimes against the person),118625.0
+Eastern Cape,2024,Murder,4691.0
+Eastern Cape,2024,Attempted murder,2536.0
+Eastern Cape,2024,Robbery with aggravating circumstances,11831.0
+Eastern Cape,2024,Burglary at residential premises,16126.0
+Eastern Cape,2024,Theft of motor vehicle and motorcycle,1409.0
+Eastern Cape,2024,Contact crime (Crimes against the person),69888.0
+Free State,2024,Murder,857.0
+Free State,2024,Attempted murder,1908.0
+Free State,2024,Robbery with aggravating circumstances,4716.0
+Free State,2024,Burglary at residential premises,9632.0
+Free State,2024,Theft of motor vehicle and motorcycle,705.0
+Free State,2024,Contact crime (Crimes against the person),41818.0
+Gauteng,2024,Murder,5959.0
+Gauteng,2024,Attempted murder,6468.0
+Gauteng,2024,Robbery with aggravating circumstances,48447.0
+Gauteng,2024,Burglary at residential premises,29233.0
+Gauteng,2024,Theft of motor vehicle and motorcycle,16840.0
+Gauteng,2024,Contact crime (Crimes against the person),172067.0
+KwaZulu-Natal,2024,Murder,5390.0
+KwaZulu-Natal,2024,Attempted murder,6992.0
+KwaZulu-Natal,2024,Robbery with aggravating circumstances,23456.0
+KwaZulu-Natal,2024,Burglary at residential premises,24721.0
+KwaZulu-Natal,2024,Theft of motor vehicle and motorcycle,5621.0
+KwaZulu-Natal,2024,Contact crime (Crimes against the person),115128.0
+Limpopo,2024,Murder,786.0
+Limpopo,2024,Attempted murder,1028.0
+Limpopo,2024,Robbery with aggravating circumstances,7222.0
+Limpopo,2024,Burglary at residential premises,11034.0
+Limpopo,2024,Theft of motor vehicle and motorcycle,602.0
+Limpopo,2024,Contact crime (Crimes against the person),39225.0
+Mpumalanga,2024,Murder,1209.0
+Mpumalanga,2024,Attempted murder,1232.0
+Mpumalanga,2024,Robbery with aggravating circumstances,7805.0
+Mpumalanga,2024,Burglary at residential premises,10111.0
+Mpumalanga,2024,Theft of motor vehicle and motorcycle,1376.0
+Mpumalanga,2024,Contact crime (Crimes against the person),36812.0
+North West,2024,Murder,1066.0
+North West,2024,Attempted murder,1041.0
+North West,2024,Robbery with aggravating circumstances,7750.0
+North West,2024,Burglary at residential premises,10302.0
+North West,2024,Theft of motor vehicle and motorcycle,1339.0
+North West,2024,Contact crime (Crimes against the person),44333.0
+Northern Cape,2024,Murder,365.0
+Northern Cape,2024,Attempted murder,2023.0
+Northern Cape,2024,Robbery with aggravating circumstances,1564.0
+Northern Cape,2024,Burglary at residential premises,4979.0
+Northern Cape,2024,Theft of motor vehicle and motorcycle,105.0
+Northern Cape,2024,Contact crime (Crimes against the person),19787.0
+Western Cape,2024,Murder,4369.0
+Western Cape,2024,Attempted murder,4402.0
+Western Cape,2024,Robbery with aggravating circumstances,23049.0
+Western Cape,2024,Burglary at residential premises,22736.0
+Western Cape,2024,Theft of motor vehicle and motorcycle,4224.0
+Western Cape,2024,Contact crime (Crimes against the person),116358.0
