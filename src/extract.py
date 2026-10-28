@@ -28,7 +28,10 @@ def download_file(url, destination):
     if destination.exists():
         print(f"Already have {destination.name}, skipping.")
         return
-    response = requests.get(url, timeout=60, verify=False)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+    response = requests.get(url, timeout=60, verify=False, headers=headers)
     response.raise_for_status()
     destination.write_bytes(response.content)
     print(f"Downloaded {destination.name}")
