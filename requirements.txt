@@ -1,4 +1,5 @@
 pandas
+openpyxl
 matplotlib
 scipy
 statsmodels
