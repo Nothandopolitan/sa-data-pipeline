@@ -2,6 +2,8 @@
 and Stats SA unemployment data into data/raw/.
 """
 
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import requests
 from pathlib import Path
 
@@ -21,7 +23,7 @@ def download_file(url, destination):
     if destination.exists():
         print(f"Already have {destination.name}, skipping.")
         return
-    response = requests.get(url, timeout=60)
+    response = requests.get(url, timeout=60, verify=False)
     response.raise_for_status()
     destination.write_bytes(response.content)
     print(f"Downloaded {destination.name}")
