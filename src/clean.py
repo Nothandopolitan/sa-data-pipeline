@@ -5,10 +5,17 @@ SAPS = 'data/raw/saps/saps_crime_2024_2025.xlsx'
 QLFS = 'data/raw/statssa/qlfs_trends_2008_2025.xlsx'
 PROVINCES = ['Eastern Cape', 'Free State', 'Gauteng', 'KwaZulu-Natal', 'Limpopo',
              'Mpumalanga', 'North West', 'Northern Cape', 'Western Cape']
+PROV_LOOKUP = {p.lower(): p for p in PROVINCES}
 CATEGORIES = ['Murder', 'Attempted murder', 'Robbery with aggravating circumstances',
               'Burglary at residential premises', 'Theft of motor vehicle and motorcycle',
               'Contact crime (Crimes against the person)']
 QUARTER = re.compile(r'(Jan-Mar|Apr-Jun|Jul-Sep|Oct-Dec)\s+(\d{4})')
+
+
+def province_from_label(label):
+    """Return the standard province name if the label is a province header, else None."""
+    clean = re.sub(r'[\s\d\*\(\)\[\],.]+$', '', str(label)).strip().lower()
+    return PROV_LOOKUP.get(clean)
 
 
 def clean_saps():
@@ -34,12 +41,14 @@ def clean_qlfs():
             continue
         label = str(label).strip()
         low = label.lower()
+        p = province_from_label(label)
+        if p:                                       # province header, whatever is in its row
+            prov = p
+            continue
         vals = t.iloc[i, 1:]
-        if vals.isna().all():                       # block or section header
-            if label in PROVINCES:
-                prov = label
-            elif not low.startswith(('key rates', 'labour underutilization')):
-                prov = None                         # metro or other block
+        if vals.isna().all():                       # metro block, footnote or section header
+            if not low.startswith(('key rates', 'labour underutilization')):
+                prov = None
             continue
         if prov and (low.startswith('population') or low.startswith('lu1')):
             name = 'pop_thousand' if low.startswith('population') else 'unemp_rate'
@@ -59,4 +68,9 @@ def clean_qlfs():
 if __name__ == '__main__':
     s, u = clean_saps(), clean_qlfs()
     u = u[(u.year >= 2015) & (u.year <= 2024)]
-    print(s.shape, u.shape)                 # expect (540, 4)
+    print(s.shape, u.shape)                 # expect (540, 4) and (90, 5)
+    print(u.columns.tolist())               # Province, year, pop_thousand, unemp_rate, n_quarters
+    print(sorted(u.Province.unique()))      # expect all 9 provinces
+    print(u.n_quarters.value_counts())      # expect all 4
+    print(u[u.Province == 'Western Cape'].head(3))
+    print(s[(s.Province == 'Gauteng') & (s.Crime_Category == 'Murder')])
