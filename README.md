@@ -1,5 +1,11 @@
 # SA People and Safety Data Pipeline
 
+## 🎥 Demo Video
+
+[Watch the 5-10 minute demo on YouTube (unlisted)](https://youtu.be/eMwdhKq-KJ0)
+
+The video walks through the pipeline end to end: collecting SAPS crime and Stats SA QLFS data, cleaning and validating it, loading it into SQLite, analysing crime against unemployment by province, and re-running everything with `run_pipeline.py`.
+
 ## 1. Overview
 An end-to-end data pipeline that collects official South African statistics (Stats SA and SAPS), cleans and validates them, stores them in a database, analyses them statistically, and presents the findings in a dashboard. One command rebuilds everything from scratch.
 
